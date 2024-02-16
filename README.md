@@ -147,4 +147,4 @@ Name | Contribution %| Contributions |
 --- |--- | --- |
 Nidhi Nitin Kulkarani 	| 33.33% |Web Scraping and Dataset Creation, Documentation, README |
 Riya Singh 		| 33.33% |PDF Extraction, Documentation |
-Deepakraja Rajendran 	| 33.33% |Database Upload, Cloud Storage Integration Diagram |
+Deepakraja Rajendran 	| 33.33% |Snowflake and Amazon S3 Database Upload, Cloud Storage Integration Diagram |
