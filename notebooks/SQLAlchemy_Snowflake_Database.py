@@ -73,7 +73,7 @@ upload_to_stage = """PUT 'file://C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/t
 
 copy_stage_to_table = """COPY INTO CFA_DATA_TABLE
 FROM @CFA_DATABASE.public.dummy
-FILE_FORMAT = (type = csv field_optionally_enclosed_by='"')
+FILE_FORMAT = (type = csv field_optionally_enclosed_by='"' skip_header = 1)
 PATTERN = '.*test.csv.gz'
 ON_ERROR = 'CONTINUE';
 
