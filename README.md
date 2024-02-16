@@ -3,7 +3,8 @@
 
 
 [![Google Colab](https://img.shields.io/badge/colab-FFDF00?style=for-the-badge&logo=colab&logoColor=white)](https://colab.research.google.com/drive/1mOOuDCEp9ESbSsifeFDqJp3WskTJ8j32#scrollTo=xu2UBhqc0oET)
-[![codelabs](https://img.shields.io/badge/codelabs-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)]()
+[![codelabs](https://img.shields.io/badge/codelabs-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)](https://codelabs-preview.appspot.com/?file_id=1AgnwpCz5vmdYBHjGpfDjJot6-G8YAur_iSxXw-1CA3M/#0)
+[![YouTube](https://img.shields.io/badge/youtube-ff0000?style=for-the-badge&logo=youtube&logoColor=white)()
 
 ## Problem Statement
 
@@ -107,6 +108,6 @@ CLI on Terminal: pip install -r requirements.txt
 
 Name | Contribution %| Contributions |
 --- |--- | --- |
-Nidhi Nitin Kulkarani 	| 33.33% |Web Scraping and Dataset Creation, Documentation, Diagram and README |
-Riya Singh 		| 33.33% |, Documentation, Diagram and README |
-Deepakraja Rajendran 	| 33.33% |, Documentation, Diagram and README |
+Nidhi Nitin Kulkarani 	| 33.33% |Web Scraping and Dataset Creation, Documentation, README |
+Riya Singh 		| 33.33% |PDF Extraction, Documentation |
+Deepakraja Rajendran 	| 33.33% |Database Upload, Cloud Storage Integration Diagram |
