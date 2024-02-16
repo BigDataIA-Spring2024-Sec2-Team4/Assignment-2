@@ -4,7 +4,7 @@
 
 [![Google Colab](https://img.shields.io/badge/colab-FFDF00?style=for-the-badge&logo=colab&logoColor=white)](https://colab.research.google.com/drive/1mOOuDCEp9ESbSsifeFDqJp3WskTJ8j32#scrollTo=xu2UBhqc0oET)
 [![codelabs](https://img.shields.io/badge/codelabs-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)](https://codelabs-preview.appspot.com/?file_id=1AgnwpCz5vmdYBHjGpfDjJot6-G8YAur_iSxXw-1CA3M/#0)
-[![YouTube](https://img.shields.io/badge/youtube-ff0000?style=for-the-badge&logo=youtube&logoColor=white)()
+[![YouTube](https://img.shields.io/badge/youtube-ff0000?style=for-the-badge&logo=youtube&logoColor=white)]()
 
 ## Problem Statement
 
@@ -25,7 +25,7 @@ Key tasks include:
 [![GROBID](https://img.shields.io/badge/GROBID-FFFFFF?style=for-the-badge&logo=GROBID&logoColor=black)](https://grobid.readthedocs.io/en/latest/Introduction/)
 [![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)](https://www.python.org/)
 [![Snowflake](https://img.shields.io/badge/snowflake-0000FF?style=for-the-badge&logo=snowflake&logoColor=white)](https://docs.snowflake.com/ )
-[![AWS](https://docs.aws.amazon.com/)
+[![AWS](https://docs.aws.amazon.com/)]
 
 ## Data Sources
 
