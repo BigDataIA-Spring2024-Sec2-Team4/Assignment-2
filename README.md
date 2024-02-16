@@ -47,6 +47,8 @@ The PDF Archives can be found Assignment2/Datasets/Sample_PDFs/
 ## Project Structure
 ```
 ├─ .gitignore
+├─ Diagrams
+│  ├─ Architecture Diagram.py
 ├─ Datasets
 │  ├─ CFA.csv
 │  ├─ Grobid
@@ -132,7 +134,7 @@ Requirements
 Run the Jupyter notebook Cloud_storage_integration.ipynb in the path Assignment2/notebooks/ to upload the dataset to AWS S3
 
 ## References
-
+https://www.zenrows.com/blog/scrapy-playwright#why-use-playwright-with-scrapy
      
 ## Learning Outcomes
 1. Web scraping tools and techniques
