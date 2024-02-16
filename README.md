@@ -39,7 +39,10 @@ The PDF Archives can be found Assignment2/Datasets/Sample_PDFs/
 
 
 ## Pre requisites
-*Define any prerequisites of softwares/knowledge base for the project*
+1. Python
+2. AWS credentials
+3. Snowflake credentials
+4. Docker
 
 ## Project Structure
 ```
