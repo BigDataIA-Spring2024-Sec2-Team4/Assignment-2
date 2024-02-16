@@ -41,38 +41,50 @@ The PDF Archives can be found Assignment2/Datasets/Sample_PDFs/
 
 ## Project Structure
 ```
-.
-├── README.md
-├── sqlalchemy
-│   ├── 1_mysql.py
-│   ├── 2_mysql.py
-│   ├── 3_mysql.py
-│   ├── 4_snowflake_sqlalchemy.py
-│   ├── 5_snowflake.py
-│   ├── 6_snowflake.py
-│   ├── 7_snowflake.py
-│   └── requirements.txt
-├── streamlit
-│   ├── Dockerfile
-│   ├── README.md
-│   ├── main.py
-│   └── requirements.txt
-└── streamlit-multipage
-    ├── README.md
-    ├── example.env
-    ├── main.py
-    ├── pages
-    │   ├── 1_uber_nyc.py
-    │   ├── 2_Plotting_Demo.py
-    │   ├── 3_nexrad_station.py
-    │   └── 4_test.py
-    ├── requirements.txt
-    └── streamlit_colab.ipynb
+├─ .gitignore
+├─ Datasets
+│  ├─ CFA.csv
+│  ├─ Grobid
+│  │  ├─ Grobid_RR_2024_l1_combined.txt
+│  │  ├─ Grobid_RR_2024_l1_combined.xml
+│  │  ├─ Grobid_RR_2024_l2_combined.txt
+│  │  ├─ Grobid_RR_2024_l2_combined.xml
+│  │  ├─ Grobid_RR_2024_l3_combined.txt
+│  │  ├─ Grobid_RR_2024_l3_combined.xml
+│  │  └─ metadata.csv
+│  ├─ PyPDF
+│  │  ├─ PyPDF_RR_2024_l1_combined.txt
+│  │  ├─ PyPDF_RR_2024_l2_combined.txt
+│  │  └─ PyPDF_RR_2024_l3_combined.txt
+│  └─ Sample_PDFs
+│     ├─ 2024-l1-topics-combined-2.pdf
+│     ├─ 2024-l2-topics-combined-2.pdf
+│     └─ 2024-l3-topics-combined-2.pdf
+├─ Pwspider
+│  ├─ Pwspider
+│  │  ├─ WebScrapingandDatasetCreation.ipynb
+│  │  ├─ __init__.py
+│  │  ├─ items.py
+│  │  ├─ middlewares.py
+│  │  ├─ pipelines.py
+│  │  ├─ settings.py
+│  │  └─ spiders
+│  │     ├─ CFA.csv
+│  │     ├─ DEBUG.log
+│  │     ├─ __init__.py
+│  │     ├─ pwspidey.py
+│  │     └─ requirements.txt
+│  └─ scrapy.cfg
+├─ README.md
+└─ notebooks
+   ├─ Cloud_storage_integration.ipynb
+   ├─ PDF Extraction.ipynb
+   ├─ SQLAlchemy_Snowflake_Database.py
+   └─ WebScrapingandDatasetCreation.ipynb
+
+
 ```
 
-*You can generate the project tree using following tools*
-*[Project Tree Generator](https://woochanleee.github.io/project-tree-generator)*
-*[Generate from terminal](https://www.geeksforgeeks.org/tree-command-unixlinux/)*
 
 ## How to run Application locally
 
