@@ -32,7 +32,9 @@ Key tasks include:
 ## Data Sources
 
 The webpages are being scraped from this main webpage:
+
 https://www.cfainstitute.org/en/membership/professional-development/refresher-readings#first=200&sort=%40refreadingcurriculumyear%20descending
+
 The PDF Archives can be found Assignment2/Datasets/Sample_PDFs/
 
 
@@ -112,12 +114,27 @@ CLI on Terminal: pip install -r requirements.txt
    - Navigate to Assignment2/Pwspider/Pwspider/ and open WebScrapingandDatasetCreation.ipynb
    - Change the evironment of the kernel to scraping environment.
    - Run the notebook.
+  
+Snowflake Upload:
+Requirements
+1. SQLAlchemy installation
+2. Pandas
+
+Run the Jupyter notebook SQLAlchemy_Snowflake_Database.py in the path Assignment2/notebooks/ to upload the dataset to Snowflake DB
+
+AWS S3 upload:
+Requirements
+1. S3 credentials
+
+Run the Jupyter notebook Cloud_storage_integration.ipynb in the path Assignment2/notebooks/ to upload the dataset to AWS S3
 
 ## References
-*All the external references must be listed down.*
+
      
 ## Learning Outcomes
-*List the learning outcomes from the assignment/project*
+1. Web scraping tools and techniques
+2. PDF Extraction Tools and Techniques
+3. SQL and AWS S3 upload methods 
 
 ## Team Information and Contribution 
 
