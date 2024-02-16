@@ -25,7 +25,9 @@ Key tasks include:
 [![GROBID](https://img.shields.io/badge/GROBID-FFFFFF?style=for-the-badge&logo=GROBID&logoColor=black)](https://grobid.readthedocs.io/en/latest/Introduction/)
 [![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)](https://www.python.org/)
 [![Snowflake](https://img.shields.io/badge/snowflake-0000FF?style=for-the-badge&logo=snowflake&logoColor=white)](https://docs.snowflake.com/ )
-[![AWS](https://docs.aws.amazon.com/)]
+[![AWS](https://img.shields.io/badge/AWS-FFFFFF?style=for-the-badge&logo=Amazon&logoColor=yellow)](https://docs.aws.amazon.com/)
+[![SQLAlchemy](https://docs.sqlalchemy.org/)]
+[![PyPDF2](https://pypdf2.readthedocs.io/)]
 
 ## Data Sources
 
