@@ -75,11 +75,12 @@ https://www.cfainstitute.org/en/membership/professional-development/refresher-re
 To run Web Scraping locally follow these steps:
 
 1. Create a virtual environment on local setup and activate it.
-CLI MacOS: 
+
+   CLI MacOS: 
 	python3 -m venv .venv
 	source .venv/bin/activate
 
-CLI Windows:
+   CLI Windows:
 	py -m venv .venv
 	.venv\Scripts\activate
 
@@ -88,7 +89,7 @@ CLI on Terminal: pip install -r requirements.txt
 
 3. To run the spider on terminal:
    - Naviage to folder Assignment2/Pwspider/Pwspider/spider/
-   - Run the cli: "scrapy crawl pwspidey -o CFA.csv -s LOG_FILE=DEBUG.log" where pwspidey is the name of the spider, CFA.csv is where the scraped      data is stored and DEBUG.LOG is the debug log for the process.
+   - Run the cli: "scrapy crawl pwspidey -o CFA.csv -s LOG_FILE=DEBUG.log" where pwspidey is the name of the spider, CFA.csv is where the scraped data is stored and DEBUG.LOG is the debug log for the process.
 
    To run the spider on Notebook environment:
    - Launch Jupyter notebook.
