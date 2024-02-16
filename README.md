@@ -26,13 +26,14 @@ Key tasks include:
 [![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)](https://www.python.org/)
 [![Snowflake](https://img.shields.io/badge/snowflake-0000FF?style=for-the-badge&logo=snowflake&logoColor=white)](https://docs.snowflake.com/ )
 [![AWS](https://img.shields.io/badge/AWS-FFFFFF?style=for-the-badge&logo=Amazon&logoColor=yellow)](https://docs.aws.amazon.com/)
-[![SQLAlchemy](https://docs.sqlalchemy.org/)]
-[![PyPDF2](https://pypdf2.readthedocs.io/)]
+[![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-FFFFFF?style=for-the-badge&logo=SQLAlchemy&logoColor=red)](https://docs.sqlalchemy.org/)
+[![PyPDF2](https://img.shields.io/badge/PyPDF2-FFFFFF?style=for-the-badge&logo=PyPDF2&logoColor=grey)](https://pypdf2.readthedocs.io/)
 
 ## Data Sources
 
 The webpages are being scraped from this main webpage:
 https://www.cfainstitute.org/en/membership/professional-development/refresher-readings#first=200&sort=%40refreadingcurriculumyear%20descending
+The PDF Archives can be found Assignment2/Datasets/Sample_PDFs/
 
 
 ## Pre requisites
