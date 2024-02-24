@@ -39,7 +39,7 @@ The PDF Archives can be found Assignment2/Datasets/Sample_PDFs/
 
 
 ## Pre requisites
-1. Python
+1. Python 3.6 or later from https://www.python.org/downloads
 2. AWS credentials
 3. Snowflake credentials
 4. Docker
@@ -120,6 +120,19 @@ CLI on Terminal: pip install -r requirements.txt
    - Change the evironment of the kernel to scraping environment.
    - Run the notebook.
   
+Running Grobid Locally with Docker:
+
+1. Install Docker: https://docs.docker.com/desktop/install/windows-install/
+
+2. Choose a Grobid Docker Image: Lightweight Image 
+Bash
+docker run --rm --init --ulimit core=0 -p 8070:8070 lfoppiano/grobid:latest
+
+3. Start the Grobid Docker Container
+
+PyPDF2: Requirements
+   pip install PyPDF2
+
 Snowflake Upload:
 Requirements
 1. SQLAlchemy installation
@@ -135,6 +148,10 @@ Run the Jupyter notebook Cloud_storage_integration.ipynb in the path Assignment2
 
 ## References
 https://www.zenrows.com/blog/scrapy-playwright#why-use-playwright-with-scrapy
+https://github.com/kermitt2/grobid
+https://pypdf.readthedocs.io/en/stable/
+https://diagrams.mingrammer.com/
+https://github.com/ashrithagoramane/DAMG7245-Spring24/tree/main/repository_structure
      
 ## Learning Outcomes
 1. Web scraping tools and techniques
@@ -145,6 +162,6 @@ https://www.zenrows.com/blog/scrapy-playwright#why-use-playwright-with-scrapy
 
 Name | Contribution %| Contributions |
 --- |--- | --- |
-Nidhi Nitin Kulkarani 	| 33.33% |Web Scraping and Dataset Creation, Documentation, README |
-Riya Singh 		| 33.33% |PDF Extraction, Documentation |
-Deepakraja Rajendran 	| 33.33% |Snowflake and Amazon S3 Database Upload, Cloud Storage Integration Diagram |
+Nidhi Nitin Kulkarani 	| 35% |Web Scraping and Dataset Creation, Documentation, README |
+Riya Singh 		| 35% |Grobid Local installation and PDF Extraction via Grobid and PyPDF2, Documentation, README |
+Deepakraja Rajendran 	| 30% |Snowflake and Amazon S3 Database Upload, Cloud Storage Integration Diagram |
