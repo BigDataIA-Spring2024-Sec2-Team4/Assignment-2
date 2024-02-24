@@ -125,14 +125,17 @@ Running Grobid Locally with Docker:
 1. Install Docker: https://docs.docker.com/desktop/install/windows-install/
 
 2. Choose a Grobid Docker Image: Lightweight Image 
-Bash
+
+```
 docker run --rm --init --ulimit core=0 -p 8070:8070 lfoppiano/grobid:latest
+```
 
 3. Start the Grobid Docker Container
 
 PyPDF2: Requirements
+```
    pip install PyPDF2
-
+```
 Snowflake Upload:
 Requirements
 1. SQLAlchemy installation
@@ -147,10 +150,10 @@ Requirements
 Run the Jupyter notebook Cloud_storage_integration.ipynb in the path Assignment2/notebooks/ to upload the dataset to AWS S3
 
 ## References
-https://www.zenrows.com/blog/scrapy-playwright#why-use-playwright-with-scrapy
-https://github.com/kermitt2/grobid
-https://pypdf.readthedocs.io/en/stable/
-https://diagrams.mingrammer.com/
+https://www.zenrows.com/blog/scrapy-playwright#why-use-playwright-with-scrapy\
+https://github.com/kermitt2/grobid \
+https://pypdf.readthedocs.io/en/stable/\
+https://diagrams.mingrammer.com/\
 https://github.com/ashrithagoramane/DAMG7245-Spring24/tree/main/repository_structure
      
 ## Learning Outcomes
@@ -163,5 +166,5 @@ https://github.com/ashrithagoramane/DAMG7245-Spring24/tree/main/repository_struc
 Name | Contribution %| Contributions |
 --- |--- | --- |
 Nidhi Nitin Kulkarani 	| 35% |Web Scraping and Dataset Creation, Documentation, README |
-Riya Singh 		| 35% |Grobid Local installation and PDF Extraction via Grobid and PyPDF2, Documentation, README |
+Riya Singh 		| 35% |PDF Extraction, Grobid Local installation and PDF Extraction via Grobid and PyPDF2, Documentation, README |
 Deepakraja Rajendran 	| 30% |Snowflake and Amazon S3 Database Upload, Cloud Storage Integration Diagram |
